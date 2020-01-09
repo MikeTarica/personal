@@ -10,13 +10,16 @@
 body {
     padding: 21px;
     margin: 10px;
+    background-color: #6f73ff8f;
 }
 
 
 /* GENERAL HTML TAGS  */
 
 h1 {
-    font-size: 50px;
+    font-size: 54px;
+    font-family: sans-serif;
+    letter-spacing: 20px;
 }
 
 h2 {
@@ -31,7 +34,9 @@ h4 {
     font-size: 27px;
 }
 
-p {}
+p {
+    font-size: small;
+}
 
 ul {}
 
@@ -49,7 +54,12 @@ a {
 /* NAVIGTION   */
 
 
-/* BODY */
+/* BODY ELEMENTS */
+
+img {
+    width: 100%;
+    height: auto;
+}
 
 
 /* article section  */
@@ -205,6 +215,13 @@ a {
 }
 
 
+/* (1600x900) HD+ Display */
+
+@media screen and (max-width: 1600px) {
+    /* insert styles here */
+}
+
+
 /* (1920x1080) Full HD Display */
 
 @media screen and (max-width: 1920px) {
@@ -212,8 +229,106 @@ a {
 }
 
 
-/* (1600x900) HD+ Display */
+/* (1920x1080) 4K */
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 2560px) {
     /* insert styles here */
+}
+
+PERSONAL WEBSITEW .post-body-wrapper {
+    /* padding: 35px 30px; */
+    /* text-align: center; */
+    /* border: 1px solid #eaeaea; */
+}
+
+.site-header .header-menu {
+    background: #000000;
+}
+
+.main-navigation li {
+    font-size: 20px;
+}
+
+.main-navigation a {
+    color: white;
+}
+
+.main-navigation ul ul {
+    background: #050000bd;
+    line-height: 25px;
+}
+
+.mobile-menu-icon i {
+    font-size: 27px;
+    color: whitesmoke;
+}
+
+.portfolio-title-section .title-wrap {
+    text-align: center;
+    display: none;
+}
+
+.page-header {
+    background: #f9a61d;
+    border-radius: 50;
+    position: relative;
+}
+
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    margin: 1.5em 0 0;
+    font-size: 33px;
+    font-style: unset;
+    color: white;
+}
+
+.pull-right {
+    float: left;
+}
+
+.has-medium-font-size {
+    font-size: 16px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 14px;
+    color: white;
+}
+
+.entry-content>h2 {
+    text-align: center;
+}
+
+.entry-content>p {
+    text-align: center;
+}
+
+.textwidget -custom-html-widget {
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 9px;
+}
+
+.entry-content>h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+..entry-content>h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.site-content {
+    padding-top: 0px;
 }
