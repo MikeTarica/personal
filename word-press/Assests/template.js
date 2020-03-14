@@ -11,3 +11,7 @@ var nameBuilder = function(firstName = "John", lastName = "Doe") {
 };
 
 nameBuilder();
+var x;
+x = 6;
+document.getElementById("demo").innerHTML = x;
+
